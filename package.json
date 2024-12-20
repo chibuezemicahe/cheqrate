@@ -1,0 +1,21 @@
+{
+  "name": "cheqrate",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node CHEQRATE",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Micah Erumaka",
+  "license": "ISC",
+  "description": "Cheqrate project",
+  "dependencies": {
+    "cheqrate": "file:",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
