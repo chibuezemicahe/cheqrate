@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
+const exchangeRateController = require('../controllers/ratesController');
 
-router.get('/', (req, res) => {
-    res.json({ message: 'Exchange rates endpoint' });
-});
+
+// Here I Import the controller function
+router.get('/rates', exchangeRateController.fetchExchangeRate);
 
 module.exports = router;
