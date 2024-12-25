@@ -137,3 +137,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 >>>>>>> a627afc66a9481e910744b6ab8dd4036a6e4957e
+.env
+.env

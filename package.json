@@ -12,11 +12,18 @@
   "license": "ISC",
   "description": "Cheqrate project",
   "dependencies": {
+    "axios": "^1.7.9",
     "body-parser": "^1.20.3",
     "cheqrate": "file:",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2",
+    "mogoose": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "mongoose": "^8.9.2",
+    "node-cron": "^3.0.3",
+    "redis": "^4.7.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
